@@ -34,7 +34,7 @@
 				<div id="header-wrap">
 					<header id="header">
 						<h2>Konscript</h2>
-						<p><a href="https://www.facebook.com/pages/Konscript/148628261844464" title="Facebook" class="pulse">Facebook</a> / <a href="http://twitter.com/konscript" title="Twitter" class="pulse">Twitter</a></p>
+						<p><a href="https://www.facebook.com/pages/Konscript/148628261844464" title="Facebook" class="pulse">Facebook</a> / <a href="http://twitter.com/konscript" title="Twitter" class="pulse">Twitter</a> / <a href="http://www.linkedin.com/company/konscript" title="LinkedIn" class="pulse">LinkedIn</p>
 					</header>
 				</div> <!-- #header-wrap -->
 				
