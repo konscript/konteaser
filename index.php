@@ -47,7 +47,7 @@
 						</div>
 						<p id="forging">The engineers are forging furiously by the melting pots to get the revamped site casted.</p>
 						<p id="description">Konscript is a fierce legion of digital natives embodying developers, designers and digital thinkers that advocate the power of open and abolishes rigid brain-constraining collations. We're selective, dedicated and prolific to the bone. We do web work for clients and foster our own virtual prodigies. We’re founded in Copenhagen with our HQ at the spacey interiors of ITU. Feel intrigued? Let’s have a talk or drop by for a beer.</p>
-						<p id="clients">Apart from homebrewed experiments, featured clients and partners include <a href="http://aquestionof.net" class="pulse">A Question Of</a>, <a href="http://rosemunde.dk" class="pulse">Rosemunde</a>, <a href="http://taniaellis.dk" class="pulse">Tania Ellis</a>, <a href="http://roskilde-festival.dk" class="pulse">Roskilde Festival</a>, <a href="http://itu-innovators.dk" class="pulse">ITU Innovators</a></p>
+						<p id="clients">Apart from ongoing homebrewed experiments, featured clients and partners include <br /><a href="http://aquestionof.net" class="pulse">A Question Of</a>, <a href="http://rosemunde.dk" class="pulse">Rosemunde</a>, <a href="http://taniaellis.dk" class="pulse">Tania Ellis</a>, <a href="http://roskilde-festival.dk" class="pulse">Roskilde Festival</a>, <a href="http://itu-innovators.dk" class="pulse">ITU Innovators</a></p>
 						<p id="contact">Get in touch with co-founders <a href="mailto:la@konscript.com" title="E-mail Lasse Boisen Andersen" class="pulse">Lasse Boisen Andersen</a> and <a href="mailto:sl@konscript.com" title="E-mail Søren Louv-Jansen" class="pulse">Søren Louv-Jansen</a></p>
 					</section>
 

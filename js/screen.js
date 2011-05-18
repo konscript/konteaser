@@ -7,31 +7,32 @@ jQuery(document).ready(function($) {
 	// Chain animate elements
 	$('#logo').css({opacity: 0, marginTop: '-50px'}).animate({opacity: 1, marginTop: 0}, 2000);
 	$('#title').css({opacity: 0, marginLeft: '-50px'}).animate({opacity: 1, marginLeft: 0}, 2000, function() {
-			$('#forging-dot, #forging').fadeIn(500, function() {
-				$('#description').fadeIn(500, function() {
-					$('#clients').fadeIn(500, function() {
-						$('#contact').fadeIn(500, function() {
-						
-							enablePulse();
-						
-						});
+		$('#forging-dot, #forging').fadeIn(500, function() {
+			$('#description').fadeIn(500, function() {
+				$('#clients').fadeIn(500, function() {
+					$('#contact').fadeIn(500, function() {
+						pulsate();
 					});
 				});
 			});
 		});
-		
+	});
+	
+	// Enable link hovering effect
 	hoveringLinks();		
 		
 });
 
-// Disables underline and makes links pulsate
-function enablePulse() {
-
-	$('.pulse').pulse({
-	    opacity: [0.3, 0.95]
-	}, 1500, 5, 'linear');
-
-}
+// Makes clickable links pulsate sequentially
+function pulsate() {
+	
+	$('.pulse:not(.pulsating):first').animate({opacity: 0.3}, 200, function() {
+		$(this).animate({opacity: 1}, 100, function(){
+		  	$(this).addClass('pulsating');
+    		pulsate();
+    	});
+  	});
+}	
 
 // Fades out links when hovering
 function hoveringLinks() {

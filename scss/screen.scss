@@ -74,7 +74,8 @@ body {
 				@include prepend(1);
 				font-size: 1em;
 				margin-bottom: 0;
-				color: black; }
+				color: black;
+				font-weight: bold; }
 
 			#header p {
 				@include column(($blueprint-grid-columns / 2) - 1, true);
