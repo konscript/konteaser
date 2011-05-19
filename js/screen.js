@@ -5,6 +5,10 @@ jQuery(document).ready(function($) {
 	$('a').css('textDecoration', 'none');
 	
 	// Chain animate elements
+	$('#logo-highlight').css({opacity: 0, marginTop: '-50px'}).animate({opacity: 1, marginTop: 0}, 2000, function() {
+		$('#logo-highlight').animate({opacity: 0}, 300);
+	});
+
 	$('#logo').css({opacity: 0, marginTop: '-50px'}).animate({opacity: 1, marginTop: 0}, 2000);
 	$('#title').css({opacity: 0, marginLeft: '-50px'}).animate({opacity: 1, marginLeft: 0}, 2000, function() {
 		$('#forging-dot, #forging').fadeIn(500, function() {

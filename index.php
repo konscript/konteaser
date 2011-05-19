@@ -52,7 +52,9 @@
 					</section>
 
 					<section id="right">
+						<img id="logo-highlight" src="imgs/logo_right-large-highlight.png" alt="Konscript Logo" />
 						<img id="logo" src="imgs/logo_right-large.png" alt="Konscript Logo" />
+
 					</section>					
 
 				</div> <!-- #content-wrap -->
