@@ -7,7 +7,7 @@
 		<title>Konscript | An Agency of Digital Natives</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		
-		<!-- Misc -->
+		<!-- Meta & misc. -->
 		<link rel="shortcut icon" href="imgs/favicon.ico">
 		<link rel="apple-touch-icon-precomposed" href="imgs/apple-touch-icon.png">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -50,7 +50,7 @@
 						<p id="forging">The engineers are forging furiously by the melting pots to get the revamped site casted.</p>
 						<p id="description">Konscript is a fierce legion of digital natives embodying developers, designers and digital thinkers that produces a wide array of solutions for the web. We're selective, dedicated and prolific to the bone. We do client work and foster our own cyber prodigies. We’re founded in Copenhagen with our HQ at the spacey interiors of ITU. Feel intrigued? Let’s have a talk or drop by for a beer.</p>
 						<p id="clients">Apart from ongoing home-brewed experiments, featured clients and partners include <br /><a href="http://aquestionof.net" class="pulse">A Question Of</a>, <a href="http://rosemunde.dk" class="pulse">Rosemunde</a>, <a href="http://taniaellis.dk" class="pulse">Tania Ellis</a>, <a href="http://roskilde-festival.dk" class="pulse">Roskilde Festival</a>, <a href="http://itu-innovators.dk" class="pulse">ITU Innovators</a></p>
-						<p id="contact">Get in touch with co-founders <a href="mailto:la@konscript.com" title="E-mail Lasse Boisen Andersen" class="pulse">Lasse Boisen Andersen</a> and <a href="mailto:sl@konscript.com" title="E-mail Søren Louv-Jansen" class="pulse">Søren Louv-Jansen</a></p>
+						<p id="contact">Get in touch with founders <a href="mailto:la@konscript.com" title="E-mail Lasse Boisen Andersen" class="pulse">Lasse Boisen Andersen</a> and <a href="mailto:sl@konscript.com" title="E-mail Søren Louv-Jansen" class="pulse">Søren Louv-Jansen</a></p>
 					</section>
 
 					<section id="right">
@@ -63,7 +63,7 @@
 				
 				<div id="footer-wrap">
 					<footer id="footer">
-						<div>This is a hidden footer!</div>	
+						<div>If you read this, it probably means you're a curios front-end developer - in that case, you should consider applying for a job. Do it, send us a mail or give us a call, we'd love to talk.</div>	
 					</footer>
 				</div> <!-- #footer-wrap -->
 				
@@ -71,7 +71,7 @@
 		</div> <!-- #container-wrap -->
 
 		<script type="text/javascript">
-		
+			// Google Analytics
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-5307016-11']);
 			_gaq.push(['_trackPageview']);
@@ -81,27 +81,26 @@
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			})();
-		
 		</script>
 
 		<script type="text/javascript">
-		var _sf_async_config={uid:24249,domain:"konscript.com"};
-		(function(){
-		  function loadChartbeat() {
-		    window._sf_endpt=(new Date()).getTime();
-		    var e = document.createElement('script');
-		    e.setAttribute('language', 'javascript');
-		    e.setAttribute('type', 'text/javascript');
-		    e.setAttribute('src',
-		       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
-		       "js/chartbeat.js");
-		    document.body.appendChild(e);
-		  }
-		  var oldonload = window.onload;
-		  window.onload = (typeof window.onload != 'function') ?
-		     loadChartbeat : function() { oldonload(); loadChartbeat(); };
-		})();
-		
+			// Chartbeat
+			var _sf_async_config={uid:24249,domain:"konscript.com"};
+			(function(){
+			  function loadChartbeat() {
+			    window._sf_endpt=(new Date()).getTime();
+			    var e = document.createElement('script');
+			    e.setAttribute('language', 'javascript');
+			    e.setAttribute('type', 'text/javascript');
+			    e.setAttribute('src',
+			       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+			       "js/chartbeat.js");
+			    document.body.appendChild(e);
+			  }
+			  var oldonload = window.onload;
+			  window.onload = (typeof window.onload != 'function') ?
+			     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+			})();		
 		</script>
 
 	</body>
