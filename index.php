@@ -49,12 +49,12 @@
 					<a href="mailto:hello@konscript.com" rel="e-mail">hello@konscript.com</a>,
 					<a href="http://twitter.com/konscript" rel="twitter">tweet</a>,
 					<a href="http://facebook.com/konscript" rel="facebook">face us</a> or 
-					<a href="#" rel="location">drop by</a>.
-					<a href="#" rel="person">Lasse</a>, 
-					<a href="#" rel="person">Søren</a>, 
-					<a href="#" rel="person">Thomas</a>,
-					<a href="#" rel="person">Kristian</a> and 
-					<a href="#" rel="person">Tomas</a>.
+					<a href="http://g.co/maps/uu68k" rel="location">drop by</a>.
+					<a href="mailto:la@konscript.com" rel="person">Lasse</a>, 
+					<a href="mailto:sl@konscript.com" rel="person">Søren</a>, 
+					<a href="mailto:tl@konscript.com" rel="person">Tomas</a>,
+					<a href="mailto:ka@konscript.com" rel="person">Kristian</a> and 
+					<a href="mailto:td@konscript.com" rel="person">Thomas</a>.
 				</span>
 			</div><!-- .content .hfeed -->
 		</div><!-- #content-container -->

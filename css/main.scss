@@ -47,7 +47,7 @@ body {
 			color: #28c666; }
 									
 		.word {
-			@include replace-text-with-dimensions('logo.png'); 
+			@include replace-text-with-dimensions('../img/logo.png'); 
 /*		@include background-image(linear-gradient(left,  #01722e 0%, #51f392 50%, #01722e 100%));			
 			-webkit-background-clip: text;
 			-moz-background-clip: border;
