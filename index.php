@@ -1,107 +1,92 @@
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
 
-		<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+  <title>KONSCRIPT_</title>
+  <meta name="description" content="Agency of Digital Natives." />
+  <meta name="author" content="Caesar" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.66, maximum-scale=1" />
 	
-		<title>Konscript | An Agency of Digital Natives</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Terminal+Dosis+Light" type="text/css" />
+  <link rel="stylesheet" href="css/main.css?v=1" type='text/css' />
+
+  <script src="http://www.modernizr.com/downloads/modernizr-2.0.6.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body class="bp">
+
+<div id="body-wrapper">
+	<div id="body-container">
 		
-		<!-- Meta & misc. -->
-		<link rel="shortcut icon" href="imgs/favicon.ico">
-		<link rel="apple-touch-icon-precomposed" href="imgs/apple-touch-icon.png">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="keywords" content="digital agency, web development, web design, web applications, developers, designers, digital thinkers, think tank, html5, css3, javascript, jquery">
-		<meta name="description" content="We're a fierce legion of digital natives embodying developers, designers and digital thinkers that advocate the power of open and abolishes rigid brain-constraining collations. We're selective, dedicated and prolific to the bone. We do web work for clients and foster our own virtual prodigies. We’re founded in Copenhagen with our HQ at the spacey interiors of ITU. Feel intrigued? Let’s have a talk or drop by for a beer.">
-		<meta name="author" content="Konscript">
-		<meta name="copyleft" content="2011">
+		<div id="header-container">
+			<div id="header"><span class="word">konscript</span><span class="underscore">_</span></div>
+		</div><!-- #header-container -->
 
-		<!-- CSS -->
-		<link rel="stylesheet" href="css/screen.css?v=1">
+		<div id="content-container">
+			<div id="content" class="hfeed">
+				<span>
+					<strong>Site relaunching soon(ish).</strong> We develop websites, concepts and engaging online experiences.
+				</span><span>
+					Clients include 
+					<a href="http://aquestionof.net" rel="client">AQO</a>, 
+					<a href="http://rosemunde.dk/site" rel="client">Rosemunde</a>,
+					<a href="http://kilsgaard-eyewear.com" rel="client">Kilsgaard</a>,
+					<a href="http://roskilde-festival.dk" rel="client">Roskilde Festival</a>,
+					<a href="http://taniaellis.com" rel="client">Tania Ellis</a>,
+					<a href="http://itu-innovators.dk." rel="client">Innovators</a>, 
+					<a href="http://sikkerrejse.dk" rel="client">DLVS</a> etc.
+				</span><span>
+					Say
+					<a href="mailto:hello@konscript.com" rel="e-mail">hello@konscript.com</a>,
+					<a href="http://twitter.com/konscript" rel="twitter">tweet</a>,
+					<a href="http://facebook.com/konscript" rel="facebook">face us</a> or 
+					<a href="#" rel="location">drop by</a>.
+					<a href="#" rel="person">Lasse</a>, 
+					<a href="#" rel="person">Søren</a>, 
+					<a href="#" rel="person">Thomas</a>,
+					<a href="#" rel="person">Kristian</a> and 
+					<a href="#" rel="person">Tomas</a>.
+				</span>
+			</div><!-- .content .hfeed -->
+		</div><!-- #content-container -->
+		
+		<div id="footer-container">
+			<div id="footer">
+			</div><!-- #footer -->
+		</div><!-- #footer-container -->
 
-		<!-- JS, grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-		<script>window.jQuery || document.write("<script src='js/jquery-1.5.1.min.js'>\x3C/script>")</script>
-		<script type="text/javascript" src="js/modernizr-1.7.min.js"></script>
-		<script type="text/javascript" src="js/jquery.pulse.js"></script>
-		<script type="text/javascript" src="js/screen.js"></script>
+	</div><!-- #body-container -->
+</div><!-- #body-wrapper -->
 
-	</head>
-	<body class="bp">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/modules/jquery-1.6.2.js">\x3C/script>')</script>
+  <script src="js/modules/jquery.pulse.js"></script>
+  <script src="js/main.js"></script>
 
-		<div id="container-wrap">		
-			<div id="container">
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+  <![endif]-->
 
-				<div id="header-wrap">
-					<header id="header">
-						<h2>Konscript</h2>
-						<p><a href="https://www.facebook.com/pages/Konscript/148628261844464" title="Facebook" class="pulse">Facebook</a> / <a href="http://twitter.com/konscript" title="Twitter" class="pulse">Twitter</a> / <a href="http://www.linkedin.com/company/konscript" title="LinkedIn" class="pulse">LinkedIn</a></p>
-					</header>
-				</div> <!-- #header-wrap -->
-				
-				<div id="content-wrap">
-
-					<section id="left">
-						<h1 id="title">An Agency of Digital Natives</h1>
-						<div id="forging-dot-wrap">
-							<span id="forging-dot"></span>
-						</div>
-						<p id="forging">The engineers are forging furiously by the melting pots to get the revamped site casted.</p>
-						<p id="description">Konscript is a fierce legion of digital natives embodying developers, designers and digital thinkers that produces a wide array of solutions for the web. We're selective, dedicated and prolific to the bone. We do client work and foster our own cyber prodigies. We’re founded in Copenhagen with our HQ at the spacey interiors of ITU. Feel intrigued? Let’s have a talk or drop by for a beer.</p>
-						<p id="clients">Apart from ongoing home-brewed experiments, featured clients and partners include <br /><a href="http://aquestionof.net" class="pulse">A Question Of</a>, <a href="http://rosemunde.dk" class="pulse">Rosemunde</a>, <a href="http://taniaellis.dk" class="pulse">Tania Ellis</a>, <a href="http://roskilde-festival.dk" class="pulse">Roskilde Festival</a>, <a href="http://itu-innovators.dk" class="pulse">ITU Innovators</a></p>
-						<p id="contact">Get in touch with founders <a href="mailto:la@konscript.com" title="E-mail Lasse Boisen Andersen" class="pulse">Lasse Boisen Andersen</a> and <a href="mailto:sl@konscript.com" title="E-mail Søren Louv-Jansen" class="pulse">Søren Louv-Jansen</a></p>
-					</section>
-
-					<section id="right">
-						<img id="logo-highlight" src="imgs/logo_right-large-highlight.png" alt="Konscript Logo" />
-						<img id="logo" src="imgs/logo_right-large.png" alt="Konscript Logo" />
-
-					</section>					
-
-				</div> <!-- #content-wrap -->
-				
-				<div id="footer-wrap">
-					<footer id="footer">
-						<div>If you read this, it probably means you're a curios front-end developer - in that case, you should consider applying for a job. Do it, send us a mail or give us a call, we'd love to talk.</div>	
-					</footer>
-				</div> <!-- #footer-wrap -->
-				
-			</div> <!-- #container -->
-		</div> <!-- #container-wrap -->
-
-		<script type="text/javascript">
-			// Google Analytics
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-5307016-11']);
-			_gaq.push(['_trackPageview']);
-			
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-		<script type="text/javascript">
-			// Chartbeat
-			var _sf_async_config={uid:24249,domain:"konscript.com"};
-			(function(){
-			  function loadChartbeat() {
-			    window._sf_endpt=(new Date()).getTime();
-			    var e = document.createElement('script');
-			    e.setAttribute('language', 'javascript');
-			    e.setAttribute('type', 'text/javascript');
-			    e.setAttribute('src',
-			       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
-			       "js/chartbeat.js");
-			    document.body.appendChild(e);
-			  }
-			  var oldonload = window.onload;
-			  window.onload = (typeof window.onload != 'function') ?
-			     loadChartbeat : function() { oldonload(); loadChartbeat(); };
-			})();		
-		</script>
-
-	</body>
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-5307016-11']);
+	  _gaq.push(['_trackPageview']);
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+	
+</body>
 </html>

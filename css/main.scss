@@ -1,0 +1,215 @@
+/**
+ * Main (main.scss)
+ */
+
+// Load the WP defaults and base
+@import "_base";
+@import "_layout";
+
+// Default blueprint setup on the body
+body.bp {
+  @include blueprint-typography(true);
+  @include blueprint-utilities; }
+
+/**
+ * 1. Body
+ ************************************************/
+
+body {
+	background-color: #000;
+	background-image: url('../img/main-pattern.png'); } 
+	
+	#body-wrapper {
+		width: 100%;
+		min-height: 550px;
+		background-image: url('../img/main-bg.png');
+		background-repeat: no-repeat;
+		background-position: top center; }
+
+		#body-container {} // _layout
+
+/**
+ * 2. Header
+ ************************************************/
+
+	#header-container {} // _layout
+		
+	#header {
+		@include opacity(0);
+		
+		span {
+			position: relative;			
+			display: block;
+			float: left;
+			font-family: 'Terminal Dosis Light', 'Terminal Dosis', sans-serif;
+			text-transform: uppercase;
+			font-size: 80px;
+			color: #28c666; }
+									
+		.word {
+			@include replace-text-with-dimensions('logo.png'); 
+/*		@include background-image(linear-gradient(left,  #01722e 0%, #51f392 50%, #01722e 100%));			
+			-webkit-background-clip: text;
+			-moz-background-clip: border;
+			background-clip: border-box; */
+			clear: left;
+			color: transparent; }
+			
+		.underscore {
+			clear: none;
+			height: 69px;
+			margin-top: -25px;
+			vertical-align: middle; }
+		
+	}	
+
+/**
+ * 3. Content
+ ************************************************/
+
+#content-container {
+	// _layout
+	margin-top: 40px;	
+	margin-bottom: 100px; }
+
+	.no-js #content {
+		@include opacity(0.99); }
+			
+	#content {
+		@include opacity(0);
+				
+		span {
+			display: inline;
+			line-height: 2;
+			color: #fff;		
+			margin-bottom: 0; }
+		
+		strong {
+			font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-weight: normal; }
+		
+		a {
+			-webkit-transition: 250ms linear 0s;
+			-moz-transition: 250ms linear 0s;
+			-o-transition: 250ms linear 0s;
+			transition: 250ms linear 0s;
+			text-decoration: none;			
+			color: #fff;
+			outline: 0 none;
+			text-decoration: none; 
+			border-bottom: 0px solid #000; }
+		
+		a:hover {
+			border-bottom: 1px solid #fff; }
+	}
+
+/**
+ * 4. Footer
+ ************************************************/
+
+// Wrapper for the entire footer
+#footer-container {
+	#footer {
+	}
+}
+		
+/**
+ * 5. Elements (default styling)
+ ************************************************/
+
+// Selection colours (easy to forget)
+::selection { background: #fff; }
+::-moz-selection { background: #fff; }
+img::selection { background: transparent; }
+img::-moz-selection	{ background: transparent; }
+body { -webkit-tap-highlight-color: #fff; }
+
+
+// Hyperlinks 
+a:link {}
+a:visited {}
+a:hover {}
+a:active {}
+
+// Headers 
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+// Text elements 
+strong {}
+em {}
+cite {}
+abbr {}
+acronym {}
+sup {}
+sub {}
+address {}
+ins {}
+dfn {}
+del {}
+
+// Paragraphs 
+p {}
+
+// Unordered lists 
+ul {}
+	ul li {}
+
+// Ordered lists 
+ol {}
+	ol li {}
+
+// Defition lists 
+dl {}
+	dt {}
+	dd {}
+
+// Blockquotes 
+blockquote {}
+	blockquote blockquote {}
+	blockquote em {}
+
+// Object 
+object {}
+
+// Code 
+code {}
+pre {}
+pre code {}
+
+// Tables 
+table {}
+	caption {}
+	tr {}
+	th {}
+	td {}
+
+// Forms 
+form {}
+	textarea {}
+	input {}
+	label {}
+	option {}
+
+// Notes 
+.note {}
+
+// Warnings/Alerts
+.warning, .alert {}
+
+// Errors
+.error {}
+
+// Downloads
+.download {}
+
+// Alignment
+.left, .alignleft {}
+.right, .alignright {}
+.center, .aligncenter {}
+.block, .alignnone {}
+.clear {}

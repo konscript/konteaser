@@ -1,0 +1,63 @@
+/**
+ * Base (_base.scss)
+ * Partial for initializing common variables, importing utilities and setting up the framework
+ */
+
+// Configure blueprint
+$blueprint-container-size: 720px; // 18 columns
+$blueprint-container-m-size: 480px; // 12 columns
+$blueprint-grid-columns: 18;
+$blueprint-grid-margin: 10px;
+
+// Use this to calculate the width based on the total width.
+// Or you can set $blueprint-grid-width to a fixed value and unset $blueprint-container-size -- it will be calculated for you.
+$blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $blueprint-grid-columns - $blueprint-grid-margin;
+
+// Global constants and variables goes here (re-usable colors, default sizes etc.)
+// Custom mixins goes here
+$blueprint-font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$blueprint-font-size: 14px;
+
+// Load compass tools, utilities and blueprint modules
+@import "blueprint";
+@import "blueprint/reset";
+@import "blueprint/typography";
+@import "compass/reset";
+@import "compass/css3/text-shadow";
+@import "compass/css3/box-shadow";
+@import "compass/css3/border-radius";
+@import "compass/css3/opacity";
+@import "compass/css3/font-face";
+@import "compass/typography/text/replacement";
+
+// Custom containers
+@mixin con {
+  width: $blueprint-container-size;
+  margin: 0 auto;
+  @include clearfix; }
+
+@mixin con_m {
+  width: $blueprint-container-m-size;
+  margin: 0 auto;
+  @include clearfix; }
+
+// Custom fonts
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: local('☺'), 
+			 url('../font/HelveticaNeueLight.ttf') format('truetype'), 
+			 url('../font/HelveticaNeueLight.otf') format('opentype')
+			 url('../font/HelveticaNeueLight.svg#') format('svg');
+	font-weight: normal;
+	font-style: normal;			
+}
+
+@font-face {
+  font-family: "Helvetica Neue Bold";
+  src: local('☺'), 
+			 url('../font/HelveticaNeueBold.ttf') format('truetype'), 
+			 url('../font/HelveticaNeueBold.otf') format('opentype')
+			 url('../font/HelveticaNeueBold.svg#') format('svg');
+	font-weight: normal;
+	font-style: normal;			
+}
