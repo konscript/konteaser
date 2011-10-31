@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=480, maximum-scale=1" />
 	
   <link rel="shortcut icon" href="img/favicon.ico" />
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png" />
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Terminal+Dosis+Light" type="text/css" />
   <link rel="stylesheet" href="css/main.css?v=1" type='text/css' />
 
