@@ -4,14 +4,6 @@
     var kon;
     kon = {
       h: '#header',
-      opt: {
-        lineStep: 1,
-        lineFadeSpeed: 400,
-        lineMoveSpeed: 100,
-        lineTypingTime: 40,
-        underscoreSpeed: 750,
-        moveDistance: '0px'
-      },
       finished: false,
       init: function() {
         this.drop();
@@ -19,12 +11,10 @@
       },
       drop: function() {
         $('#header').animate({
-          opacity: 1,
-          marginTop: '+=' + this.opt.moveDistance
+          opacity: 1
         }, 500, __bind(function() {
           $('#content').animate({
-            opacity: 0.99,
-            marginTop: '+=' + this.opt.moveDistance
+            opacity: 0.99
           }, 500);
         }, this));
       },
@@ -33,7 +23,7 @@
           opacity: [0.99, 0]
         }, {
           times: 42,
-          duration: this.opt.underscoreSpeed,
+          duration: 750,
           complete: __bind(function() {
             setTimeout(__bind(function() {
               return $(this.h + ' .underscore').stop().fadeTo('slow', 0.99);
