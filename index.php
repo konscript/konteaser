@@ -14,6 +14,10 @@
   <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png" />
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Terminal+Dosis+Light" type="text/css" />
   <link rel="stylesheet" href="css/main.css?v=1" type='text/css' />
+  <?php	if(isset($_GET["eegg"])): ?>
+	<link rel="stylesheet" href="css/eegg.css" type='text/css' />    	
+  <?php endif; ?>
+
 
   <script src="http://www.modernizr.com/downloads/modernizr-2.0.6.js"></script>
 
