@@ -3,8 +3,8 @@
  */
 
 // Load the WP defaults and base
-@import "_base";
-@import "_layout";
+@import "base";
+@import "layout";
 
 // Default blueprint setup on the body
 body.bp {
@@ -21,7 +21,7 @@ body {
 	
 	#body-wrapper {
 		width: 100%;
-		min-height: 550px;
+		min-height: 610px;
 		background-image: url('../img/main-bg.png');
 		background-repeat: no-repeat;
 		background-position: top center; }
