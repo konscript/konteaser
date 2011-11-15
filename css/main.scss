@@ -40,22 +40,18 @@ body {
 		span {
 			position: relative;			
 			display: block;
-			float: left;
-			font-family: 'Terminal Dosis Light', 'Terminal Dosis', sans-serif;
-			text-transform: uppercase;
-			font-size: 80px;
-			color: #28c666; }
+			float: left; }
 									
 		.word {
 			@include replace-text-with-dimensions('../img/logo.png'); 
-/*		@include background-image(linear-gradient(left,  #01722e 0%, #51f392 50%, #01722e 100%));			
-			-webkit-background-clip: text;
-			-moz-background-clip: border;
-			background-clip: border-box; */
 			clear: left;
 			color: transparent; }
 			
 		.underscore {
+			font-family: 'Terminal Dosis Light', 'Terminal Dosis', sans-serif;
+			text-transform: uppercase;
+			font-size: 80px;
+			color: #28c666;
 			clear: none;
 			height: 69px;
 			margin-top: -25px;
@@ -89,17 +85,23 @@ body {
 			font-weight: normal; }
 		
 		a {
-			-webkit-transition: 250ms linear 0s;
-			-moz-transition: 250ms linear 0s;
-			-o-transition: 250ms linear 0s;
-			transition: 250ms linear 0s;
+			-webkit-transition: border-color 0.3s linear;
+			-moz-transition: border-color 0.3s linear;
+			-o-transition: border-color 0.3s linear;
+			-ms-transition: border-color 0.3s linear;
+			transition: border-color 0.3s linear;
 			text-decoration: none;			
 			color: #fff;
 			outline: 0 none;
 			text-decoration: none; 
-			border-bottom: 0px solid #000; }
+			border-bottom: 1px solid #000; }
 		
-		a:hover {
+		a:hover {		
+			-webkit-transition: border-color 0.5s linear;
+			-moz-transition: border-color 0.5s linear;
+			-o-transition: border-color 0.5s linear;
+			-ms-transition: border-color 0.5s linear;
+			transition: border-color 0.5s linear;
 			border-bottom: 1px solid #fff; }
 	}
 

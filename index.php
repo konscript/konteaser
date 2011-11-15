@@ -2,7 +2,7 @@
 <html>
 <head>
 
-  <title>KONSCRIPT_</title>
+  <title>KONSCRIPT - Agency of Digital Natives</title>
   <meta name="description" content="Agency of Digital Natives." />
   <meta name="author" content="Caesar" />
   <meta charset="utf-8" />
@@ -37,19 +37,19 @@
 					<strong>Site relaunching soon(ish).</strong> We develop websites, concepts and engaging online experiences.
 				</span><span>
 					Clients include 
-					<a href="http://aquestionof.net" rel="client">AQO</a>, 
-					<a href="http://rosemunde.dk/site" rel="client">Rosemunde</a>,
-					<a href="http://kilsgaard-eyewear.com" rel="client">Kilsgaard</a>,
-					<a href="http://roskilde-festival.dk" rel="client">Roskilde Festival</a>,
-					<a href="http://taniaellis.com" rel="client">Tania Ellis</a>,
-					<a href="http://itu-innovators.dk." rel="client">Innovators</a>, 
-					<a href="http://sikkerrejse.dk" rel="client">DLVS</a> etc.
+					<a href="http://aquestionof.net" target="_blank" rel="client">AQO</a>, 
+					<a href="http://rosemunde.dk/site" target="_blank" rel="client">Rosemunde</a>,
+					<a href="http://kilsgaard-eyewear.com" target="_blank" rel="client">Kilsgaard</a>,
+					<a href="http://roskilde-festival.dk" target="_blank" rel="client">Roskilde Festival</a>,
+					<a href="http://itu-innovators.dk." target="_blank" rel="client">Innovators</a>, 
+					<a href="http://taniaellis.com" target="_blank" rel="client">Tania Ellis</a>,
+					<a href="http://sikkerrejse.dk" target="_blank" rel="client">DLVS</a> etc.
 				</span><span>
 					Say
 					<a href="mailto:hello@konscript.com" rel="e-mail">hello@konscript.com</a>,
-					<a href="http://twitter.com/konscript" rel="twitter">tweet</a>,
-					<a href="http://facebook.com/konscript" rel="facebook">face us</a> or 
-					<a href="http://g.co/maps/uu68k" rel="location">drop by</a>.
+					<a href="http://twitter.com/konscript" target="_blank" rel="twitter">tweet</a>,
+					<a href="http://facebook.com/konscript" target="_blank" rel="facebook">face us</a> or 
+					<a href="http://g.co/maps/uu68k" target="_blank" rel="location">drop by</a>.
 					<a href="mailto:la@konscript.com" rel="person">Lasse</a>, 
 					<a href="mailto:sl@konscript.com" rel="person">Søren</a>, 
 					<a href="mailto:tl@konscript.com" rel="person">Tomas</a>,
@@ -73,8 +73,8 @@
   <script src="js/main.js"></script>
 
   <!--[if lt IE 7 ]>
-    <script src="js/libs/dd_belatedpng.js"></script>
-    <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+    <script src="js/modules/dd_belatedpng_0.0.8a-min.js"></script>
+    <script>DD_belatedPNG.fix('.word'); // Read goo.gl/mZiyb</script>
   <![endif]-->
 
 	<script type="text/javascript">
