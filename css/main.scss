@@ -17,12 +17,12 @@ body.bp {
 
 body {
 	background-color: #000;
-	background-image: url('../img/main-pattern.png'); } 
+	background-image: image-url('main-pattern.png');  } 
 	
 	#body-wrapper {
 		width: 100%;
 		min-height: 610px;
-		background-image: url('../img/main-bg.png');
+		background-image: image-url('main-bg.png');
 		background-repeat: no-repeat;
 		background-position: top center; }
 
@@ -43,7 +43,7 @@ body {
 			float: left; }
 									
 		.word {
-			@include replace-text-with-dimensions('../img/logo.png'); 
+			@include replace-text-with-dimensions('logo.png'); 
 			clear: left;
 			color: transparent; }
 			
