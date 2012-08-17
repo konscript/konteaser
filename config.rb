@@ -1,5 +1,5 @@
 environment     = :development
-http_path       = "/projects/konteaser/"
+http_path       = "/konteaser/"
 css_dir         = "css"
 sass_dir        = "css"
 images_dir      = "img"
