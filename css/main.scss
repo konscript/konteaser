@@ -7,17 +7,20 @@
 @import "layout";
 
 // Default blueprint setup on the body
-body.bp {
-  @include blueprint-typography(true);
-  @include blueprint-utilities; }
+body {
+
+}
 
 /**
  * 1. Body
  ************************************************/
 
 body {
+  	@include blueprint-typography(true);
+  	@include blueprint-utilities;	
 	background-color: #000;
-	background-image: image-url('main-pattern.png');  } 
+	background-image: image-url('main-pattern.png');
+	color: #fff; } 
 	
 	#body-wrapper {
 		width: 100%;
@@ -62,7 +65,7 @@ body {
 /**
  * 3. Content
  ************************************************/
-
+ 
 #content-container {
 	// _layout
 	margin-top: 40px;	
@@ -73,16 +76,22 @@ body {
 			
 	#content {
 		@include opacity(0);
+		line-height: 2em;
+		color: #fff;		
 				
-		span {
-			display: inline;
-			line-height: 2;
-			color: #fff;		
-			margin-bottom: 0; }
+		div {
+			@include clearfix();
+			margin: 1.2em 0; }
 		
-		strong {
+		label {
 			font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			font-weight: normal; }
+			font-weight: normal;
+			float: left;
+			@include column(2); }
+
+		section {
+			float: left;
+		}
 		
 		a {
 			-webkit-transition: border-color 0.3s linear;
@@ -94,7 +103,7 @@ body {
 			color: #fff;
 			outline: 0 none;
 			text-decoration: none; 
-			border-bottom: 1px solid #000; }
+			border-bottom: 1px dotted #656565; }
 		
 		a:hover {		
 			-webkit-transition: border-color 0.5s linear;
@@ -102,7 +111,7 @@ body {
 			-o-transition: border-color 0.5s linear;
 			-ms-transition: border-color 0.5s linear;
 			transition: border-color 0.5s linear;
-			border-bottom: 1px solid #fff; }
+			border-bottom: 1px dotted #fff; }
 	}
 
 /**

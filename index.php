@@ -2,13 +2,13 @@
 <html>
 <head>
 
-  <title>KONSCRIPT - Agency of Digital Natives</title>
-  <meta name="description" content="Agency of Digital Natives." />
+  <title>A collective of creators. Konscript_</title>
+  <meta name="description" content="A young collective of creators/developers/hackers" />
   <meta name="author" content="Caesar" />
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-	<meta name="viewport" content="width=480, maximum-scale=1" />
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  <meta name="viewport" content="width=480, maximum-scale=1" />
 	
   <link rel="shortcut icon" href="img/favicon.ico" />
   <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png" />
@@ -37,29 +37,51 @@
 
 		<div id="content-container">
 			<div id="content" class="hfeed">
-				<span>
-					<strong>Site relaunching soon(ish).</strong> We develop websites, concepts and engaging online experiences.
-				</span><span>
-					Clients include 
-					<a href="http://aquestionof.net" target="_blank" rel="client">AQO</a>, 
-					<a href="http://rosemunde.dk/site" target="_blank" rel="client">Rosemunde</a>,
-					<a href="http://kilsgaard-eyewear.com" target="_blank" rel="client">Kilsgaard</a>,
-					<a href="http://roskilde-festival.dk" target="_blank" rel="client">Roskilde Festival</a>,
-					<a href="http://itu-innovators.dk." target="_blank" rel="client">Innovators</a>, 
-					<a href="http://taniaellis.com" target="_blank" rel="client">Tania Ellis</a>,
-					<a href="http://sikkerrejse.dk" target="_blank" rel="client">DLVS</a> etc.
-				</span><span>
-					Say
-					<a href="mailto:hello@konscript.com" rel="e-mail">hello@konscript.com</a>,
-					<a href="http://twitter.com/konscript" target="_blank" rel="twitter">tweet</a>,
-					<a href="http://facebook.com/konscript" target="_blank" rel="facebook">face us</a> or 
-					<a href="http://g.co/maps/uu68k" target="_blank" rel="location">drop by</a>.
-					<a href="mailto:la@konscript.com" rel="person">Lasse</a>, 
-					<a href="mailto:sl@konscript.com" rel="person">Søren</a>, 
-					<a href="mailto:tl@konscript.com" rel="person">Tomas</a>,
-					<a href="mailto:ka@konscript.com" rel="person">Kristian</a> and 
-					<a href="mailto:td@konscript.com" rel="person">Thomas</a>.
-				</span>
+					<div>
+						We're a team of digital natives with too many bits in our brains.</strong> We build websites, apps and engaging online experiences for clients and ourselves. We're located in cozy Copenhagen.
+					</div>
+					<div>
+						<label>Clients:</label>
+						<section>
+							<a href="http://sikkerrejse.dk" target="_blank" rel="client">Danske Lægers Vaccinations Service</a>,
+							<a href="http://aquestionof.net" target="_blank" rel="client">A Question Of</a>, 
+							<a href="http://rosemunde.dk/site" target="_blank" rel="client">Rosemunde</a>,
+							<a href="http://kilsgaard-eyewear.com" target="_blank" rel="client">Kilsgaard eyewear</a>,
+							<a href="http://roskilde-festival.dk" target="_blank" rel="client">Roskilde Festival</a>,
+							<a href="http://itu-innovators.dk." target="_blank" rel="client">ITU Innovators</a>, 
+							<a href="http://taniaellis.com" target="_blank" rel="client">Tania Ellis</a> etc.
+						</section>
+					</div>
+					<div>
+						<label>Projects:</label>
+						<section>
+							<a href="http://kobstaden.dk" target="blank">Købstaden</a>,
+							Social Money,
+							Vaporistas,
+							Prosty,
+							Project Identity,
+							Kane etc.
+						</section>
+					</div>
+					<div>
+						<label>Agents:</label>
+						<section>
+							<a href="http://laander.com" rel="person">Lasse Boisen Andersen</a>, 
+							<a href="http://dk.linkedin.com/pub/s%C3%B8ren-louv-jansen/32/3a6/504" rel="person">Søren Louv-Jansen</a>,
+							<a href="http://cosic.dk" rel="person">Vanja Cosic</a>,
+							<a href="http://dk.linkedin.com/pub/jakob-harder-holmelund/27/65b/717" rel="person">Jakob Harder Holmelund</a>,
+							<a href="http://lieberkind.it" rel="person">Tomas Lieberkind</a>,
+							<a href="http://about.me/ksmandersen" rel="person">Kristian S.M. Andersen</a> and 
+							<a href="http://www.facebook.com/thomas.didriksen" rel="person">Thomas Didriksen</a>.
+						</section>
+					</div>
+					<div>			
+						Say
+						<a href="mailto:hello@konscript.com" rel="e-mail">hello@konscript.com</a>,
+						<a href="http://twitter.com/konscript" target="_blank" rel="twitter">tweet</a>,
+						<a href="http://facebook.com/konscript" target="_blank" rel="facebook">face us</a> or 
+						<a href="http://goo.gl/maps/tiZ4d" target="_blank" rel="location">drop by</a>. Coffee is on us if you do!
+					</div>
 			</div><!-- .content .hfeed -->
 		</div><!-- #content-container -->
 		
